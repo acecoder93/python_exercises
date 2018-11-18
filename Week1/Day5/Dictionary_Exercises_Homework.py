@@ -56,46 +56,30 @@
 # Exercise 2 (#4)
 # print(ramit['friends'][0]['interests'][1])
 
-# Exercise 3 - Letter Summary - Need to revisit!!
+# Exercise 3 - Letter Summary 
 
-# letter_dictionary = {
-#     "a" : 0,
-#     "b" : 0,
-#     "c" : 0,
-#     "d" : 0,
-#     "e" : 0,
-#     "f" : 0,
-#     "g" : 0,
-#     "h" : 0,
-#     "i" : 0,
-#     "j" : 0,
-#     "k" : 0,
-#     "l" : 0,
-#     "m" : 0,
-#     "n" : 0,
-#     "o" : 0,
-#     "p" : 0,
-#     "q" : 0,
-#     "r" : 0,
-#     "s" : 0,
-#     "t" : 0,
-#     "u" : 0,
-#     "v" : 0,
-#     "w" : 0,
-#     "x" : 0,
-#     "y" : 0,
-#     "z" : 0
-# }
+# given_string = str.lower((input('Please submit a string: ')))
+# def letter_count(given_string):
+#     dict = {}
+#     for n in given_string:
+#         keys = dict.keys()
+#         if n in keys:
+#             dict[n] += 1
+#         else:
+#             dict[n] = 1
+#     return dict
 
-# question_list = []
-# question = str.lower(input('Enter a word to receive a tally of each letter: '))
-# question_list.append(question)
+# print(letter_count(given_string))
 
-# def letter_histogram(question):
-#     for x in range(len(question_list)):
-#         if x == "a":
-#            question_list["a"] = "a" + 1
+# Exercise 4 - Word Summary
+# given_string = str.lower((input('Please submit a string: ')))
+# def word_count(given_string):
+#     dict = {}
+#     for word in given_string.split(' '):
+#         if word  not in dict:
+#             dict[word] = 1
+#         else:
+#             dict[word] += 1
+#     return dict
 
-# letter_histogram(question)
-# print (question_list)
-
+# print(word_count(given_string))
