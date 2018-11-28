@@ -109,9 +109,9 @@
 # 8. Play again?
 # def playagain(x):
 #     if x == "Y":
-#         return "True"
+#         return True
 #     elif x == "N":
-#         return "False"
+#         return False
 #     else:
 #         print("Invalid")
 

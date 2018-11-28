@@ -118,12 +118,12 @@
 # coins = 0
 # print ("You have %d coins" %(coins))
 
-# answer = str.lower(raw_input('Do you want another?'))
+# answer = str.lower(input('Do you want another?'))
 
 # while answer == "yes":
 #     coins += 1
 #     print ('You have %d coins' % (coins))
-#     answer = str.lower(raw_input('Do you want a coin?'))
+#     answer = str.lower(input('Do you want a coin?'))
 
 # if answer == "no":
 #     print ("Bye")
